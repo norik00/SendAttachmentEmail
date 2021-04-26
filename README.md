@@ -52,3 +52,9 @@ Variable is `addressee` and `division_ja`.
 
 Format of attachment name is 【`month`月】`division_ja`転送金額（`fwdest`　`name`）.xlsx
 `division_ja` is Japanese of argment's `division`. `car` is 車両. `profit` is 利益.
+
+### Command Line
+
+```
+$ sendmail -d car -n vehicle_name -fd store_name -m 4 
+```
