@@ -42,10 +42,10 @@ others:
 ```
 
 **Setting of mail body**
+
 `body` is mail body. This body use Python string formatting, So you can refer to your variable substitutions by name and use them in any order you want.
 Variable is `addressee` and `division_ja`.
 
 **Attachment directory**
-`files` directory is same hierarchy directory where excute command.
 
-When you want to change directory name, change `directory` at `config.yml`.
+`files` directory is same hierarchy directory where excute command.　When you want to change directory name, change `directory` at `config.yml`.
