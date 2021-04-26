@@ -3,7 +3,7 @@ Send attachment email with use command line.
 
 ## Installing
 ```
-$ pip intall git+https://github.com/norik00/SendAttachmentEmail
+$ pip install git+https://github.com/norik00/SendAttachmentEmail
 ```
 
 ## Useage
