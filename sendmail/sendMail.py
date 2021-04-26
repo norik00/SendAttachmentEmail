@@ -314,7 +314,7 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=f"""
 attachment file:
-name format    【[month]】[car or profit]（[forwarding destination]　[vehicle name]）
+name format    【[month]月】[車両 or 利益]転送金額（[fwdest]　[name]）
 
 forward list:  
 {help_operate.get_forward_list()}
@@ -342,7 +342,8 @@ forward list:
     parser.add_argument(
         '-m', '--month',
         help='month',
-        required=True
+        required=True,
+        type=int
     )
 
     # 引数取得
