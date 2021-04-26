@@ -1,0 +1,35 @@
+# outgoing mail server IP
+server:
+port: 
+source: 
+# mail address list format
+cc: 
+# Attachment direcroty name
+directory: files
+# TO
+stores: 
+  <store_name>:
+    branch: 
+    # list format
+    addressee:
+    # list format
+    mail:
+# TO
+branches:
+  <branche_name>:
+    # list format
+    addressee: 
+    # list format
+    mail:
+    # default order: branch_name.addressee store_name.addressee
+    # if order 'last': store_name.addressee branch_name.addressee
+    order:
+# CC
+others:
+  <branch_name>:
+    # list format
+    addressee:
+    # list format
+    mail:
+# message body
+body:

@@ -1,0 +1,9 @@
+# files
+config.yml
+.lnk
+
+# directories
+sendmail.egg-info/
+dist/
+.history/
+__pycache__/
